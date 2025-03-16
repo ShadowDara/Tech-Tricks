@@ -4,7 +4,7 @@
 - to be honest i dont now how to write such a file, so good luck with my mess!
 - maybe look in the Table of Content to find what you want!
 - **feel free to fork this Repository!**
-- [License](https://github.com/ShadowDara/Tech-Tricks/edit/main/README.md#LICENSE)
+- [License](https://github.com/ShadowDara/Tech-Tricks/edit/main/README.md)
 
 # Windows
 
