@@ -1,9 +1,10 @@
-# Shadowdara's Tech-Stuff
+# Tech-Stuff
 
 - **Pls be patient with my Trash**
 - to be honest i dont now how to write such a file, so good luck with my mess!
 - maybe look in the Table of Content to find what you want!
 - **feel free to fork this Repository!**
+- [License](https://github.com/ShadowDara/Tech-Tricks/edit/main/README.md#LICENSE)
 
 # Windows
 
@@ -141,6 +142,13 @@ open=start.bat
 - `icon` defines the used icon for the device in the explorer
 - `label` is the used name of the device
 - `open` is used to open a file, for example a `.bat` file
+
+---
+
+# LICENSE
+
+- feel free to use the tipps for whatever you want but give credits
+- [LICENSE file](https://github.com/ShadowDara/Tech-Tricks/blob/main/LICENSE)
 
 ---
 
