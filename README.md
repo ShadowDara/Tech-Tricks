@@ -1,4 +1,4 @@
-# Tech-Stuff
+# 🖥️ Tech-Stuff
 
 - **Pls be patient with my Trash**
 - to be honest i dont now how to write such a file, so good luck with my mess!
