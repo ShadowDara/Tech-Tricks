@@ -65,23 +65,6 @@ pause
 
 ---
 
-### Run .exe file ignoring admin rights
-
-pls consider this does not work for every programm, for example it is working for steam.
-
-1. create a new text file and paste:
-```bat
-set __COMPAT_LAYER=RunAsInvoker
-start "file.exe"
-```
-4. (ignore that 2 and 3 are missing)
-5. change `file.exe` to the name your .exe file
-6. These 2 files must be in the same folder
-7. safe the textfile with `.bat` as file extension
-8. double click to run the file
-
----
-
 ### Wlan password trick
 
 This is a simple trick to get the Wlan password from your computer
