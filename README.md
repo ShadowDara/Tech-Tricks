@@ -65,19 +65,6 @@ pause
 
 ---
 
-### Wlan password trick
-
-This is a simple trick to get the Wlan password from your computer
-
-1. you need to have the password alrealy registered in your computer
-2. open `cmd.exe`
-3. type `netsh wlan show profile "SSID" key=clear`
-4. SSiD is to network name (for example "FritzBox 7986"), you want to have the password from
-5. scroll down to **security settings**
-6. search for **Key Content**, this is the password
-
----
-
 ## Powershell
 
 - you need a powershell terminal installed for this! *(but on the windows it is usally installed)*
