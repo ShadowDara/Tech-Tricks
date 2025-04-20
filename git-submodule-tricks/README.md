@@ -5,6 +5,11 @@ basically a clone of a other Repositorys branch, but
 the code will not be saved in your Git Database, it will
 cloned automaticly from the submodule source Repository
 
+*You need to have Git installed for this!*
+
+**To be sure the file is existing,
+run `add_gitsubmodules_file.bat` at first!**
+
 ## Content
 
 **You want to test this first? This is ofcourse a good idea!!!**
