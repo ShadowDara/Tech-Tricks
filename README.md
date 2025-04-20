@@ -12,6 +12,10 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 
 ---
 
+## OLD Stuff
+
+*i am restructering this repository*
+
 - **Pls be patient with my Trash**
 - to be honest i dont now how to write such a file, so good luck with my mess!
 - maybe look in the Table of Content to find what you want!
@@ -132,7 +136,3 @@ open=start.bat
 - feel free to use the tipps for whatever you want but give credits
 when you republish then!
 - [LICENSE file](https://github.com/ShadowDara/Tech-Tricks/blob/main/LICENSE)
-
----
-
-*Last updated this page on 16.03.2025*
