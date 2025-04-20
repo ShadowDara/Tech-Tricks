@@ -1,6 +1,3 @@
-<!-- written by Shadowdara -->
-<!-- https://github.com/weuritz8u/read-wlan-password -->
-
 # read-wlan-password
 
 This is a simple trick to get the already saved / registrated wlan / wifi password from your computer
@@ -25,11 +22,3 @@ You can although download the [`read_ssid.bat`](read_ssid.bat) script and run it
 4. scroll down to **security settings**
 
 5. search for **Key Content**, this is the saved password
-
-## Other
-
-*LICENSE* : None
-
-**would be cool to give credit when you copy and republish this but is not required.**
-
-*Feel free to contribute via Issues (although Ideas) and forks / Pull Requests.*

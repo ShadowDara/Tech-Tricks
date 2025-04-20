@@ -7,7 +7,8 @@ This is a collection Repository for useful Tricks and Tech Stuff!
   - [read wlan password](read-wlan-password/README.md)
   - [run without Admin rights](run-without-admin-rights/README.md)
 - [Powershell]()
-- [Python]()
+  - [change-file-edittime](change-file-extension/README.md)
+  - [change-file-extension](change-file-extension/README.md)
 
 ---
 
@@ -129,6 +130,7 @@ open=start.bat
 # LICENSE
 
 - feel free to use the tipps for whatever you want but give credits
+when you republish then!
 - [LICENSE file](https://github.com/ShadowDara/Tech-Tricks/blob/main/LICENSE)
 
 ---

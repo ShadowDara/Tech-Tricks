@@ -14,11 +14,3 @@ start file.exe
 3. These 2 files must be in the same folder
 4. safe the textfile with `.bat` as file extension
 5. double click to run the `.bat` file
-
-## Other
-
-*LICENSE* : None
-
-**would be cool to give credit when you copy and republish this but is not required.**
-
-*Feel free to contribute via Issues (although Ideas) and forks / Pull Requests.*
