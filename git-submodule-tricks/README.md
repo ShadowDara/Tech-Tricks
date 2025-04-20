@@ -28,6 +28,16 @@ which is / will be located in:
 `README.md`, `LICENSE`, `.gitignore`, `.gitattributes` and so on...
 
 
+## Clone Repository with Broken Submodules
+
+this are terminal commands to remove a broken submodul
+
+**If you can't clone the Repository anymore, try
+`git clone --recurse-submodules=0 <REPO-URL>`**
+
+- `<REPO-URL>` is your `root` Github Repo
+
+
 ## Add Submodule
 
 This script will add a Git Submdule to your Repository
