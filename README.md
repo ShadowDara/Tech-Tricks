@@ -15,9 +15,6 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 - [create-envirment-variables](create-envirment-variables/README.md)
 - [show-envirment-vars](show-envirment-vars/README.md)
 
-### [Git]()
-  
-
 ---
 
 ## OLD Stuff
@@ -139,8 +136,16 @@ open=start.bat
 
 ---
 
-# LICENSE
+## LICENSE
 
 - feel free to use the tipps for whatever you want but give credits
 when you republish then!
 - [LICENSE file](https://github.com/ShadowDara/Tech-Tricks/blob/main/LICENSE)
+
+---
+
+## Branch Info
+
+### Important Branches:
+- main
+- Git-Submodule-Testing
