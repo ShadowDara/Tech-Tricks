@@ -9,6 +9,8 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 - [Powershell]()
   - [change-file-edittime](change-file-extension/README.md)
   - [change-file-extension](change-file-extension/README.md)
+  - [create-envirment-variables](create-envirment-variables/README.md)
+  - [show-envirment-vars](show-envirment-vars/README.md)
 
 ---
 
