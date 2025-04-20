@@ -1,146 +1,100 @@
-# 🖥️ Tech-Tricks
+# Git Submodule Tricks
 
-This is a collection Repository for useful Tricks and Tech Stuff!
+Git has the option to add submodules to your Repository,
+basically a clone of a other Repositorys branch, but
+the code will not be saved in your Git Database, it will
+cloned automaticly from the submodule source Repository
 
-## Content-Index
+## Content
 
-### [Batch]()
-- [Git Submodule Tricks](git-submodule-tricks/README.md)
-- [read wlan password](read-wlan-password/README.md)
-- [run without Admin rights](run-without-admin-rights/README.md)
+**You want to test this first? This is ofcourse a good idea!!!**
+- *Clone the Repository and switch to branch `Git-Submodule-Testing`*
 
-### [Powershell]()
-- [change-file-edittime](change-file-extension/README.md)
-- [change-file-extension](change-file-extension/README.md)
-- [create-envirment-variables](create-envirment-variables/README.md)
-- [show-envirment-vars](show-envirment-vars/README.md)
+When running, the scripts must be located in the `root` folder
+of your Git Repository!
 
-### [Git]()
-  
+For this example we will use the repository: `local-HTTP-server`
+which is / will be located in:
 
----
-
-## OLD Stuff
-
-*i am restructering this repository*
-
-- **Pls be patient with my Trash**
-- to be honest i dont now how to write such a file, so good luck with my mess!
-- maybe look in the Table of Content to find what you want!
-- **feel free to fork this Repository!**
-- [License](https://github.com/ShadowDara/Tech-Tricks/edit/main/README.md)
-
-# Windows
-
-## Batch
-
-- all bash commands are only working on windows!
-
-### Hack Effect
-
-This makes a cool hacker looking effect in the cmd Terminal
-
-1. make a new file and paste
-```bat
-@echo off
-color 0A
-:start
-echo %random% %random% %random% %random%
-goto start
-```
-2. save the file as somthing`.bat` *(only the file extension is important)*
-3. run the file
-
-Press `CTRL + C` or close the terminal to end this effect
-
----
-
-### Terminal Loop
-
-1. make a new file and paste
-```bat
-:loopstart
-start
-goto loopstart
-```
-2. save the file as somthing`.bat` *(only the file extension is important)*
-3. run the file
-4. DONT DO STEP 3, YOUR COMPUTER WONT LIKE THIS!
-
----
-
-### Robocopy
-
-This is a copying file, because sometimes the windows explorer hates me and i hate him too!
-
-- copy this in a new batch file
-
-```bat
-@echo off
-set SOURCE="C:\Pfad\zum\Quellordner" REM This is the Source Folder Path
-set DEST="D:\BackupOrdner" REM This is Destination Folder Path
-set LOGFILE="C:\Pfad\zum\Log\robocopy_log.txt" REM This is the Path for a Logfile
-
-robocopy %SOURCE% %DEST% /E /COPY:DAT /LOG:%LOGFILE% /TEE /NP
-
-echo Backup abgeschlossen!
-pause
+```git
+/root
+│── /local-HTTP-server
+│── /.git
+│── README.md
+│── LICENSE
 ```
 
----
+**root** is the main Folder of your Git Repository with Stuff like:
+`README.md`, `LICENSE`, `.gitignore`, `.gitattributes` and so on...
 
-## Powershell
 
-- you need a powershell terminal installed for this! *(but on the windows it is usally installed)*
+## Add Submodule
 
-### Change Edit Time
+This script will add a Git Submdule to your Repository
 
-With this file you can easily change the edit- and creation time of all particular files in a folder.
+### Using
 
-```powershell
-# This is the Folderlocation, PLEASE CHANGE!!!
-$ordner = "C:\Pfad\zum\Ordner"
+**run `add_submodule.bat`**
 
-# THIS IS THE NEW DATE, PLEASE CHANGE AND IT MUST BE IN THE SAME FORMAT!!!
-$neuesDatum = Get-Date "2024-03-06 12:34:56"
+- the script will ask your for the path you want to save the submodule,
+in our example this will be `local-HTTP-server` so enter this!
 
-# Changing every file in the particular folder
-# If you although want include subfolders, add " -File -Recurse " to line 9 (this is line 8)
-$files = Get-ChildItem -Path $ordner -File
+- then the script will ask you for the link of the Repository, which
+will be `https://github.com/weuritz8u/local-HTTP-server.git` in our
+example!
 
-# Changing every Date
-foreach ($file in $files) {
-    $file.CreationTime = $neuesDatum
-    $file.LastWriteTime = $neuesDatum
-    Write-Host "Geändert: $($file.Name) -> $neuesDatum"
-}
+- then the script will open the `.gitmodules` file in a texteditor to
+control the file *(not required)*
 
-Write-Host "All Files are updated!"
+
+## Update Submodules
+
+### To Update all Gitsubmodules to the newest Version
+
+**run `update_submodules.bat`**
+
+- This script will easily update **ALL** submodules in the git Repository
+
+### To Set a Gitsubmodule to a specified commit
+
+**run `update_sbm_to_commit.bat`**
+
+- first the script will ask you for the submodule path, `local-HTTP-Server`
+in our example!
+
+- then enter the git Hash which be `87cb6a26be322b05fca817e4c3a3f8ba372cc55f`
+in our example!
+
+
+## Remove Submodules
+
+This script will remove the submodule for you from the git database
+
+### Using
+
+**run `remove_submodules.bat`**
+
+- the script will ask your for the submodule path which is
+`local-HTTP-server` in our example!
+
+- then the script will open `.gitmodules` in your Texteditor
+which will look something like this:
+
+```git
+[submodule "local-HTTP-server"]
+	path = local-HTTP-server
+	url = https://github.com/weuritz8u/local-HTTP-server
+[submodule "3ma-to-obj-converter-python"]
+	path = 3ma-to-obj-converter-python
+	url = https://github.com/weuritz8u/3ma-to-obj-converter-python
 ```
-- safe this file as a `.ps1` file
 
----
+Because we only want to remove `local-HTTP-server`, delete the 3 lines:
 
-## Autorun for USB-Devices
-
-This a code configgering USB-Sticks and running programms automatically with them
-
-```inf
-[autorun]
-icon=Dara.ico
-label="117GB"
-open=start.bat
+```
+[submodule "local-HTTP-server"]
+	path = local-HTTP-server
+	url = https://github.com/weuritz8u/local-HTTP-server
 ```
 
-**Explanation**
-- `icon` defines the used icon for the device in the explorer
-- `label` is the used name of the device
-- `open` is used to open a file, for example a `.bat` file
-
----
-
-# LICENSE
-
-- feel free to use the tipps for whatever you want but give credits
-when you republish then!
-- [LICENSE file](https://github.com/ShadowDara/Tech-Tricks/blob/main/LICENSE)
+then save the file and press enter in the batch script to continue
