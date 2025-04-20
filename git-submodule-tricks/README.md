@@ -32,7 +32,9 @@ which is / will be located in:
 
 this are terminal commands to remove a broken submodul
 
-**If you can't clone the Repository anymore, try
+- to start the Terminal in the folder, you can although double click `start.cmd`
+
+**If you can't clone the Repository anymore, try in the Terminal
 `git clone --recurse-submodules=0 <REPO-URL>`**
 
 - `<REPO-URL>` is your `root` Github Repo
