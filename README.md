@@ -15,9 +15,6 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 - [create-envirment-variables](create-envirment-variables/README.md)
 - [show-envirment-vars](show-envirment-vars/README.md)
 
-### [Git]()
-  
-
 ---
 
 ## OLD Stuff
