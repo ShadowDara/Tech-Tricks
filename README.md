@@ -1,4 +1,15 @@
-# 🖥️ Tech-Stuff
+# 🖥️ Tech-Tricks
+
+This is a collection Repository for useful Tricks and Tech Stuff!
+
+## Content
+- [Batch]()
+  - [read wlan password](read-wlan-password/README.md)
+  - [run without Admin rights](run-without-admin-rights/README.md)
+- [Powershell]()
+- [Python]()
+
+
 
 - **Pls be patient with my Trash**
 - to be honest i dont now how to write such a file, so good luck with my mess!
