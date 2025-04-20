@@ -9,7 +9,7 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 - [Powershell]()
 - [Python]()
 
-
+---
 
 - **Pls be patient with my Trash**
 - to be honest i dont now how to write such a file, so good luck with my mess!
