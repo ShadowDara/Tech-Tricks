@@ -27,7 +27,7 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 - [show-envirment-vars](show-envirment-vars/README.md)
 
 ### [Web]()
-- [Github Picture Mode Maker](__OTHER__/web/gh-picture-mode-maker/README.md)
+- [Picture Mode Maker](__OTHER__/web/picture-mode-maker/README.md)
 
 ### [OLD README File](__OTHER__/OLD_README.md)
 
