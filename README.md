@@ -26,10 +26,14 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 - [create-envirment-variables](create-envirment-variables/README.md)
 - [show-envirment-vars](show-envirment-vars/README.md)
 
+### [OLD README File](__OTHER__/OLD_README.md)
+
 ### [Web]()
+- [Shadowdara.github.io](__OTHER__/web/README.md)
 - [Picture Mode Maker](__OTHER__/web/picture-mode-maker/README.md)
 
-### [OLD README File](__OTHER__/OLD_README.md)
+### [__CHALLENGES__](__OTHER__/__CHALLENGES__/README.md)
+
 
 ## LICENSE
 
