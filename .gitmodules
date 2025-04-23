@@ -1,0 +1,3 @@
+[submodule "__OTHER__/web"]
+	path = __OTHER__/web
+	url = https://github.com/ShadowDara/Shadowdara.github.io.git

@@ -26,6 +26,11 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 - [create-envirment-variables](create-envirment-variables/README.md)
 - [show-envirment-vars](show-envirment-vars/README.md)
 
+### [Web]()
+- [Github Picture Mode Maker](__OTHER__/web/gh-picture-mode-maker/README.md)
+
+### [OLD README File](__OTHER__/OLD_README.md)
+
 ## LICENSE
 
 - feel free to use the tipps for whatever you want but give credits
