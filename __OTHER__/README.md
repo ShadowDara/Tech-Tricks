@@ -4,6 +4,9 @@ Folder for Other Stuff
 
 ## Content
 
+### [__ARCHIVE__]()
+- [Daras Lua Shell](__ARCHIVE__/Daras-Lua-Shell/README.md)
+
 ### [__CHALLENGES__]()
 - [Sloth bytes Scala](__CHALLENGES__/sloth_bytes/README.md)
 
