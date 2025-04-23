@@ -32,7 +32,7 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 - [Shadowdara.github.io](__OTHER__/web/README.md)
 - [Picture Mode Maker](__OTHER__/web/picture-mode-maker/README.md)
 
-### [__CHALLENGES__](__OTHER__/__CHALLENGES__/README.md)
+### [__OTHER__](__OTHER__/README.md)
 
 
 ## LICENSE
