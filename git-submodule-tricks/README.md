@@ -49,6 +49,12 @@ this are terminal commands to remove a broken submodul
 
 This script will add a Git Submdule to your Repository
 
+the normal command would be:
+
+```
+git submodule add https://github.com/weuritz8u/local-HTTP-server.git local-HTTP-server
+```
+
 ### Using
 
 **run `add_submodule.bat`**
@@ -71,6 +77,12 @@ control the file *(not required)*
 **run `update_submodules.bat`**
 
 - This script will easily update **ALL** submodules in the git Repository
+
+**Command**
+
+```
+git submodule update --remote --merge
+```
 
 ### To Set a Gitsubmodule to a specified commit
 
