@@ -28,8 +28,6 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 
 ### [OLD README File](__OTHER__/OLD_README.md)
 
-### [__OTHER__](__OTHER__/README.md)
-
 
 ## LICENSE
 
