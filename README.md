@@ -28,10 +28,6 @@ This is a collection Repository for useful Tricks and Tech Stuff!
 
 ### [OLD README File](__OTHER__/OLD_README.md)
 
-### [Web]()
-- [Shadowdara.github.io](__OTHER__/web/README.md)
-- [Picture Mode Maker](__OTHER__/web/picture-mode-maker/README.md)
-
 ### [__OTHER__](__OTHER__/README.md)
 
 
